@@ -7,7 +7,7 @@ const AboutMe = () => {
 
   return (
     <div className="my-3">
-        <h3 className="mt-4 ml-2 text-3xl md:text-5xl font-bold  text-neutral-300 text-center">About Me</h3> 
+        <h3 className="mt-4 ml-2 text-3xl md:text-5xl font-bold    text-black dark:text-neutral-300 text-center">About Me</h3> 
        
       <TextGenerateEffect className="mx-8 text-center" words={About} />
     </div>
