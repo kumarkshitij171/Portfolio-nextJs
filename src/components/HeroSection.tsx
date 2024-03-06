@@ -45,12 +45,13 @@ const HeroSection = () => {
               text="Student"
               revealText="Full Stack Developer"
             ></TextRevealCard>
+
             <TypewriterEffectSmooth words={words} />
 
             <a href={fileUrl} download>
               <Button
                 borderRadius="1.75rem"
-                className="bg-white dark:bg-black text-white dark:text-white border-neutral-200 dark:border-slate-800"
+                className="bg-black text-white border-slate-800"
               >
                 Resume
               </Button>
